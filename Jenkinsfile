@@ -1,6 +1,6 @@
 pipeline{
     agent {
-            label 'web-lab'
+            label 'web_lap'
     }
     parameters{
         string(name: 'name_container', defaultValue: 'sitio_web', description: 'Nombre del container')
